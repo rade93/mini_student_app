@@ -1,0 +1,395 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(books.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.loginbox {
+	width: 320px;
+	height: 410px;
+	background: #498dc7;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 5px;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% -50px);
+	margin-left: 85px;
+}
+
+h1 {
+	margin-top: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	font-family: cursive;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height: 20px;
+	width: 90%;
+	color: black;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.loginbox a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.loginbox a:hover
+{
+	color: #ffc107;
+}
+
+.adminlink:hover {
+	color: #ffc107;
+	cursor: pointer;
+}
+
+/* SUBJECTS */
+
+.tables {
+	height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: gainsboro;
+    color: black;
+    font-family: cursive;
+    margin: auto;
+    text-align: center;
+}
+
+thead th {
+	background-color: burlywood;
+    height: 40px;
+}
+
+.formregister {
+	margin: auto;
+}
+
+/* Full-width input fields */
+input[type=text], 
+input[type=password] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 20px;
+    width: 90%;
+    color: black;
+    font-size: 16px;
+}
+/*
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+*/
+
+input {
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    font: 400 13.3333px Arial;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s 
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.formregister {
+	width: 40%;
+    background-color: darkgrey;
+    opacity: 1;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.formregister label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.formregister select {
+	width: 40%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.formregister p {
+	background-color: darkgrey;
+    opacity: 0.8;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+#add_name {
+	border-radius: 5px;
+    background-color: gray;
+    opacity: 0.9;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    width: auto;
+}
+/*
+.btnlogout {
+	float: right;
+	margin: auto;
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+    background-color: cyan;
+    border: none;
+    cursor: pointer;
+}
+*/
+.addsubject {
+    margin-top: 50px;
+    margin-left: 25%;
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+    background-color: cyan;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.adddirection, 
+.addstudent, 
+.alltogether,
+.btnlogout {
+	margin: auto;
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+    background-color: cyan;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.menu1 {
+	margin-top: 50px;
+    margin-left: 25%;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+
+/* REGISTRATION */
+#btnback {
+	margin: 20px 0;
+}
+
+#idsubject {
+	height: 32px;
+    width: auto;
+    margin: 6px auto;
+    border-radius: 16px;
+    background-color: #cc6600;
+    border: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 30px;
+}
+
+/* POST FORM */
+/* ADD SUBJECTS */
+
+.postsubjects,
+.postdirection,
+.poststudent,
+.postall,
+.poststudent {
+	width: 48%;
+    height: auto;
+    background-color: darkgray;
+    border-radius: 5px;
+    margin: 3% 25%;
+}
+
+.postsubjects,
+.postdirection,
+.poststudent,
+.postall,
+.poststudent label {
+	font-family: sans-serif;
+    font-size: 20px;
+    width: auto;
+}
+
+.postsubjects,
+.postdirection,
+.poststudent,
+.postall,
+.poststudent form {
+	padding: 15px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    cursor: pointer;
+}
+
+.button, [type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.scrolltable {
+    background-color: lightblue;
+    height: 445px;
+    width: 50%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
